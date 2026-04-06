@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Contact Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌍 Global Contact Directory</h1>
+    <label for="countryInput" class="instruction">Enter the country name </label>
+    <input type="text" id="countryInput" placeholder="Enter country name">
+    <button onclick="searchContact()">🔎 Search</button>
+    <div id="result" class="result-card"></div>
+  </div>
+
+  <!-- Load Firebase logic -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
